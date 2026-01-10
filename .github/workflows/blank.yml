@@ -5,5 +5,17 @@ jobs:
   hello:
     runs-on: ubuntu-latest
     steps:
-      - name: Hello Step
-        run: echo "Welcome to GHA"
+      - name: Build Step
+        run: echo "A demo build"
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Phase
+        run: echo "Running"
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy the App
+        run: echo "Deploying the app"
