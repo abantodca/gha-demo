@@ -8,5 +8,7 @@ jobs:
               run: |
                 echo "This workflow is tiggered by ${{github.actor}}"
                 echo "The repository name is ${{ github.repository}}"
+            - name: Print all variable
+              run: "${{toJson(github)}}"
 
 
