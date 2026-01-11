@@ -9,6 +9,6 @@ jobs:
                 echo "This workflow is tiggered by ${{github.actor}}"
                 echo "The repository name is ${{ github.repository}}"
             - name: Print all variable
-              run: "${{toJson(github)}}"
+              run: echo "${{toJson(github)}}"
 
 
