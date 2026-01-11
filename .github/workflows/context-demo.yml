@@ -14,5 +14,3 @@ jobs:
 
             - name: Print enviroment variables
               run: echo "$GITHUB_SHA"
-
-
