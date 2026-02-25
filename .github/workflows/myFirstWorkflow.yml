@@ -1,7 +1,8 @@
 name: my-first-workflow
 # To get a tigger on very push in this repo
-on: push
-
+on:
+  schedule:
+    - cron: "*/1 * * * *"
 jobs:
   job1:
     name: JOB1
