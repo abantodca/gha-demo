@@ -23,5 +23,5 @@ jobs:
       - name: Running multiple commands
         run:  |
           echo "Hi from carlos abanto"
-          echo "Current time is `date"
-          sleep 20
+          echo "Current time is `date`"
+          sleep 2`
